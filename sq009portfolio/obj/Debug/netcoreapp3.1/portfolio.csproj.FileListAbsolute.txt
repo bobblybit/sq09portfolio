@@ -136,3 +136,7 @@ C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\obj\Debug\netcoreapp3.1\portfol
 C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\Data\json-data\data.json
 C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\sq09portfolio\sq009portfolio\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

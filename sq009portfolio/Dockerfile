@@ -7,20 +7,27 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["portfolio.csproj", "portfolio/"]
-RUN dotnet restore "portfolio/portfolio.csproj"
+COPY ["portfolio.csproj", "sq009portfolio/"]
 
-WORKDIR "/src/portfolio"
+RUN dotnet restore "sq009portfolio/portfolio.csproj"
 
 COPY . .
 
+WORKDIR "/src"
+
+
 RUN dotnet build "portfolio.csproj" -c Release -o /app/build
+
+#RUN dotnet ef database update
 
 FROM build AS publish
 RUN dotnet publish "portfolio.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
 
+
+COPY --from=publish /src/Portfolio.db .
+COPY --from=publish /app/publish .
+#ENTRYPOINT ["dotnet", "sd009Portfolio.dll"]
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet portfolio.dll

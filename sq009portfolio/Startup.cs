@@ -59,6 +59,12 @@ namespace portfolio
             }
 
             app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseAuthorization();
+            app.UseCors(x => x.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+
 
             app.UseRouting();
 
