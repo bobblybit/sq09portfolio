@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using portfolio.Data.Models;
 using portfolio.Models;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace portfolio.Data
 
         }
 
-
+        public DbSet<Contact> Contact { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Projects> Projects { get; set; }
         public DbSet<Skill> Skills { get; set; }

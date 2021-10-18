@@ -23,30 +23,10 @@ namespace portfolio.Data
 
             if (!context.Users.Any())
             {
-                var userData = GetSeedData<User>(File.ReadAllText(path + "User.json"));
+                var userData = GetSeedData<User>(File.ReadAllText(path + "data.json"));
                 await context.Users.AddRangeAsync(userData);
                 await context.SaveChangesAsync();
             }
-
-
-
-            if (!context.Skills.Any())
-            {
-                var skills = GetSeedData<Skill>(File.ReadAllText(path + "skills.json"));
-                await context.Skills.AddRangeAsync(skills);
-                await context.SaveChangesAsync();
-            }
-
-
-            if (!context.Projects.Any())
-            {
-                var projects = GetSeedData<Projects>(File.ReadAllText(path + "projects.json"));
-                await context.Projects.AddRangeAsync(projects);
-                await context.SaveChangesAsync();
-            }
-
-
-
         }
 
         private static List<T> GetSeedData<T>(string location)

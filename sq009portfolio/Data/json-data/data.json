@@ -1,0 +1,416 @@
+[
+  {
+    "FirstName": "Israel",
+    "LastName": "Iyonsi",
+    "About": "Hello! My name is Iyonsi Israel and I am a Software Engineer based in Lagos, Nigeria who is fascinated about everything tech. I am currently a Decadev at the Decagon institute of software engineering and leadership where I am being equipped with tools and skills necessary to advance my career in tech. Coming from a background of Ux/Ui Design, I have been able to see my designs come to life as a software engineer and when I am not working I love to produce music and hangout with my friends.",
+    "Contact":
+      {
+        "Phone": "08059685116",
+        "Email": "elyon4001@gmail.com",
+        "SocialMedia": "Instagram.com/iyonsi_israel",
+        "LinkedIn": " https://www.linkedin.com/in/iyonsi-israel-123b72b0",
+        "Github": "https://github.com/Iyonsi"
+      },
+
+    "Skills": [
+
+      {
+        "Name": "Html",
+        "Proficiency": 90
+      },
+      {
+        "Name": "Css",
+        "Proficiency": 80
+      },
+      {
+        "Name": "Ux/ui",
+        "Proficiency": 80
+      },
+
+      {
+        "Name": ".Net",
+        "Proficiency": 90
+      },
+      {
+        "Name": "Javascript",
+        "Proficiency": 80
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "Delgram",
+        "Desc": "A social media platform that brings together people from various part of the world and also a great collaborative tool for small teams",
+        "ImgURL": "https://www.figma.com/proto/aBwIkC2dycfyryJTVvUl3M/Chat-App-Team?node-id=548%3A6613&scaling=scale-down&page-id=548%3A6613&starting-point-node-id=1709%3A1822",
+        "TechnologiesUsed": "Figma",
+        "GitHubUrl": "#",
+        "linktolivedemo": "#"
+      },
+
+      {
+        "Title": "Portfolio website",
+        "Desc": "A portfolio website to showcase all delivered projects with relevant information about the user.",
+        "ImgURL": "",
+        "TechnologiesUsed": "Html, Css, Bootstrap, Angular, TypeScript",
+        "GitHubUrl": "#",
+        "LinkToLiveDemo": "#"
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "FirstName": "John",
+    "LastName": "Ushie",
+    "About": "An Engineer with 2+ years of experience solving exciting problems with PHP: Laravel, html, CSS: bootstrap and MySQL. While at it, I Join Decagon Institute as a Software Engineer(in Training) in the .Net Stack. My personal mission is to seek opportunities to become a world-class problem solver and to support businesses in achieving high sustainable growth rate through learning, strategy and collaboration.",
+    "Contact":
+      {
+        "Phone": "08069829923",
+        "Email": "john.ushie@decagon.dev",
+        "SocialMedia": " https://www.facebook.com/ushie.john.5",
+        "LinkedIn": "https://www.linkedin.com/in/ushie-john-7a5605191/",
+        "Github": "https://github.com/ushie-cpu"
+      },
+
+    "Skills": [
+      {
+        "Name": "HTML",
+        "Proficiency": 80
+      },
+      {
+        "Name": "Css",
+        "Proficiency": 80
+      },
+      {
+        "Name": "BOOSTRAP",
+        "Proficiency": 60
+      },
+      {
+        "Name": "JavaScript",
+        "Proficiency": 70
+      },
+      {
+        "Name": "PHP",
+        "Proficiency": 80
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "Skyinflow Investment Solution",
+        "Desc": "An Investment Software Solution that allows Users Invest with skyinflow Expecting profits (ROI)in 30 days",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML, CSS, JavaScript, PHP and MySQL",
+        "GitHubUrl": "https://github.com/ushie-cpu/skyinflowsolution",
+        "LinkToLiveDemo": "www.skyinflow.com"
+      },
+      {
+        "Title": "Unique Library",
+        "Desc": "An NGO Platform focus on encouraging youths to read books",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML, CSS, JavaScript, PHP and MySQ",
+        "GitHubUrl": "https://github.com/ushie-cpu/uniquelibrary",
+        "LinkToLiveDemo": "Uniquelibrary.org"
+      }
+    ]
+  },
+
+
+
+
+  {
+    "FirstName": "Ugochukwu",
+    "LastName": "Anunihu",
+    "About": "I'm a full-stack software engineer based in Lagos, Nigeria. I have 1 year experience building responsive websites and desktop apps.",
+    "Contact":
+      {
+        "Phone": "08139041002",
+        "Email": "ugochukwu.anunihu@gmail.com",
+        "SocialMedia": "https://www.facebook.com/ugochukwu.anunihu",
+        "LinkedIn": "https://linkedin.com/in/anunihu-casmir-b928b4a9/",
+        "Github": "https://github.com/Casido1"
+      },
+
+    "Skills": [
+      {
+        "Name": "Python",
+        "Proficiency": 70
+      },
+      {
+        "Name": "C#",
+        "Proficiency": 80
+      },
+      {
+        "Name": "JavaScript",
+        "Proficiency": 70
+      },
+      {
+        "Name": "Angular",
+        "Proficiency": 80
+      },
+      {
+        "Name": "React",
+        "Proficiency": 80
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "Website Blocker",
+        "Desc": "An application for blocking unwanted websites on any windows PC",
+        "ImgURL": "#",
+        "TechnologiesUsed": "Python And Tkinter",
+        "GitHubUrl": "https://github.com/Casido1/website-blocker",
+        "LinkToLiveDemo": "#"
+      },
+      {
+        "Title": "portfolio website",
+        "Desc": "A website displaying my personal portfolio",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML, CSS, Typescript, Angula",
+        "GitHubUrl": "https://github.com/Casido1/Portfolio",
+        "LinkToLiveDemo": "#"
+      }
+    ]
+  },
+
+
+
+
+  {
+    "FirstName": "Amos",
+    "LastName": "Alagbe Sunmbo",
+    "About": "I am Alagbe Sunmbo Amos, A Software Developer A result-oriented professional willing to work as a software engineer in a globally reputed company. Offering excellence in communication skills with team spirit and expertise in computer tech languages like C#, JavaScript and more.",
+    "Contact":
+      {
+        "Phone": "08081038112",
+        "Email": "alagbesamos@gmail.com",
+        "SocialMedia": "https://www.instagram.com/am_sunboy005/",
+        "LinkedIn": "https://www.linkedin.com/in/amos-alagbe-049b2119/",
+        "Github": "https://www.github.com/sunboy005"
+      },
+
+    "Skills": [
+
+      {
+        "Name": "C#",
+        "Proficiency": 90
+      },
+      {
+        "Name": "JavaScript",
+        "Proficiency": 70
+      },
+      {
+        "Name": "Nodejs",
+        "Proficiency": 75
+      },
+      {
+        "Name": "Angular",
+        "Proficiency": 60
+      },
+      {
+        "Name": "PHP",
+        "Proficiency": 80
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "LASU Hostel Management System",
+        "Desc": "Description: This project is aimed at solving hostel allocation issue in the Lagos State University. I created both Admin and students interface.",
+        "ImgURL": "assets/img/lasuhms.png",
+        "TechnologiesUsed": "HTML,CSS and JavaScript for FrontEnd and PHP for BackEnd",
+        "GitHubUrl": "https://github.com/sunboy005/lasuhostel",
+        "LinkToLiveDemo": "#"
+      },
+      {
+        "Title": "CongreCounter",
+        "Desc": "This project is just to take numbers of participants both male and female in an event. It takes the record and stored it on the phone. The result is saved on a table",
+        "ImgURL": "assets/img/congrecounter.png",
+        "TechnologiesUsed": " JavaScript, HTML, CSS",
+        "GitHubUrl": "https://github.com/Sunboy005/CongreCounter",
+        "LinkToLiveDemo": "#"
+      }
+    ]
+  },
+
+
+  {
+    "FirstName": "Kamilu",
+    "LastName": "Adewale",
+    "About": "I'm a full-stack developer based in Lagos, Nigeria. I have two years of experience in building efficient and beautiful websites and applications using modern web technologies.",
+    "Contact":
+      {
+        "Phone": "07038893413",
+        "Email": "devkamilnaija@gmail.com",
+        "SocialMedia":"https://www.instagram.com/pearlkelar1/",
+        "LinkedIn":"https://www.linkedin.com/in/kamilu-adewale-64ab73197/",
+        "Github": "https://github.com/adewaleK"
+      },
+
+    "Skills": [
+
+      {
+        "Name": "PHP",
+        "Proficiency": 1
+      },
+      {
+        "Name": "C#",
+        "Proficiency": 1
+      },
+      {
+        "Name": "JavaScript",
+        "Proficiency": 2
+      },
+      {
+        "Name": "Node.js",
+        "Proficiency": 1
+      },
+      {
+        "Name": "React",
+        "Proficiency": 1
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "Frontend Ecommerce App",
+        "Desc": "A responsive shopping cart application that features Add/Remove to/from cart, checkout and Pay stack payment integration functionalities.",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML, CSS, JavaScript, and Pay stack API",
+        "GitHubUrl": "https://github.com/adewaleK/Ustacky-Ecom-Project/tree/development",
+        "LinkToLiveDemo": "https://vanillajs-shopping-cart.herokuapp.com/"
+      },
+      {
+        "Title": "Portal Management App",
+        "Desc": "A School Portal Management App for admins to manage and update student records in the database",
+        "ImgURL": "#",
+        "TechnologiesUsed": "PHP, MySQL, HTML, CSS, JQuery/Ajax",
+        "GitHubUrl": "https://github.com/adewaleK/Ustacky-Student-Portal",
+        "LinkToLiveDemo": "https://fathomless-citadel-12435.herokuapp.com/index.php"
+      }
+    ]
+  },
+
+
+  {
+    "FirstName": "Robert",
+    "LastName": "Eru",
+    "About": "Hello! My name is Eru Robert and I am a Software Engineer based in Lagos, Nigeria who is fascinated about everything tech. I am currently a Decadev at the Decagon institute of software engineering and leadership, where I am being equipped with tools and skills necessary to advance my career in tech.",
+    "Contact":
+      {
+        "Phone": "08162487592",
+        "Email": "boyroberto2009@gmail.com",
+        "SocialMedia":"https://Instagram.com",
+        "LinkedIn":"https://www.linkedin.com/in/robert-orosume-eru-1a93071a3/",
+        "Github":"https://github.com/Robertechie"
+      },
+
+    "Skills": [
+      {
+        "Name": "Html",
+        "Proficiency": 60
+      },
+      {
+        "Name": "CSS",
+        "Proficiency": 60
+      },
+      {
+        "Name": "JavaScript",
+        "Proficiency": 70
+      },
+      {
+        "Name": ".NET",
+        "Proficiency": 80
+      },
+      {
+        "Name": "Flutter Dart",
+        "Proficiency": 70
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "Emergency Reporting System App",
+        "Desc": "A mobile app for alarming the various security agency for an emergency situation.",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML, CSS, JavaScript, and Pay stack API",
+        "GitHubUrl": "#",
+        "LinkToLiveDemo": "#"
+      },
+      {
+        "Title": "Online Tutor",
+        "Desc": "A web portal for hiring tutor online.",
+        "ImgURL": "#",
+        "TechnologiesUsed": "PHP, MySQL, HTML, CSS, JQuery/Ajax",
+        "GitHubUrl": "#",
+        "LinkToLiveDemo": "#"
+      }
+    ]
+  },
+
+
+
+
+  {
+    "FirstName": "Surakat",
+    "LastName": "Gideon",
+    "About": "I am surakat Gideon, A software Engineer From Lagos Nigeria with expertise in laguages such as C#, Javascript and Others.",
+    "Contact":
+      {
+        "Phone": "08122518659",
+        "Email": "surakatg@gmail.com",
+        "SocialMedia": "https://www.facebook.com/surakat.gideon/",
+        "LinkedIn": " https://linkedin.com/in/gideon-surakat-883563144",
+        "Github": "https://github.com/lordhynet"
+      },
+
+    "Skills": [
+      {
+        "Name": "Html",
+        "Proficiency": 90
+      },
+      {
+        "Name": "CSS",
+        "Proficiency": 70
+      },
+      {
+        "Name": "C#",
+        "Proficiency": 70
+      },
+      {
+        "Name": "JavaScript",
+        "Proficiency":60
+      },
+      {
+        "Name": "Angular",
+        "Proficiency": 50
+      }
+    ],
+
+    "Projects": [
+      {
+        "Title": "Tribute Page",
+        "Desc": "This project is a tribute page for Dr Norman Borluag",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML5, CSS",
+        "GitHubUrl": "#",
+        "LinkToLiveDemo": "https://codepen.io/gideon-surakat/details/yLOLLeq"
+      },
+      {
+        "Title": "Google Clone",
+        "Desc": "This project is a clone of the giant search site Google.",
+        "ImgURL": "#",
+        "TechnologiesUsed": "HTML5, CSS",
+        "GitHubUrl": "#",
+        "LinkToLiveDemo": "https://codepen.io/gideon-surakat/pen/eYZEGvO"
+      }
+    ]
+  }
+
+
+
+]

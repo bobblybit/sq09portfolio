@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace portfolio.Data.Repository.Interface
 {
-    public interface IProject
+    public interface IUserService
     {
-        public IEnumerable<Projects> GetProjectsAsync();
+        public User GetUserAsync(string UserId);
     }
 }

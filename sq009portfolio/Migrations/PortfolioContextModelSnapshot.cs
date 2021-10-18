@@ -15,6 +15,38 @@ namespace portfolio.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.11");
 
+            modelBuilder.Entity("portfolio.Data.Models.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Github")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LinkedIn")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SocialMedia")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Contact");
+                });
+
             modelBuilder.Entity("portfolio.Models.Projects", b =>
                 {
                     b.Property<int>("Id")
@@ -30,16 +62,21 @@ namespace portfolio.Migrations
                     b.Property<string>("ImgURL")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("LinkToLivedemo")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("TechnologiesUsed")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Projects");
                 });
@@ -53,13 +90,15 @@ namespace portfolio.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("Proficiency")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("UserId")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("YearsOfProficiency")
-                        .HasColumnType("TEXT");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Skills");
                 });
@@ -72,9 +111,51 @@ namespace portfolio.Migrations
                     b.Property<string>("About")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("FirstName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("portfolio.Data.Models.Contact", b =>
+                {
+                    b.HasOne("portfolio.Models.User", "User")
+                        .WithOne("ContactInfo")
+                        .HasForeignKey("portfolio.Data.Models.Contact", "UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("portfolio.Models.Projects", b =>
+                {
+                    b.HasOne("portfolio.Models.User", "User")
+                        .WithMany("Projects")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("portfolio.Models.Skill", b =>
+                {
+                    b.HasOne("portfolio.Models.User", "User")
+                        .WithMany("Skills")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("portfolio.Models.User", b =>
+                {
+                    b.Navigation("ContactInfo");
+
+                    b.Navigation("Projects");
+
+                    b.Navigation("Skills");
                 });
 #pragma warning restore 612, 618
         }

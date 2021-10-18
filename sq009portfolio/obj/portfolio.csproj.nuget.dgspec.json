@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\sq009portfolio\\portfolio.csproj": {}
+    "C:\\Users\\hp\\Desktop\\sq09portfolio\\sq009portfolio\\portfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\sq009portfolio\\portfolio.csproj": {
+    "C:\\Users\\hp\\Desktop\\sq09portfolio\\sq009portfolio\\portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\sq009portfolio\\portfolio.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\sq09portfolio\\sq009portfolio\\portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\sq009portfolio\\portfolio.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\sq09portfolio\\sq009portfolio\\portfolio.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\sq009portfolio\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\sq09portfolio\\sq009portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.11, )"

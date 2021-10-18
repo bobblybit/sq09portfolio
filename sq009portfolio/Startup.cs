@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -45,8 +46,8 @@ namespace portfolio
                     }
                     );
             });
-
             services.AddScoped<IUserService, UserService>();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,7 +77,7 @@ namespace portfolio
             });
 
 
-            Preseeder.Seed(app).Wait();
+          Preseeder.Seed(app).Wait();
 
         }
     }
