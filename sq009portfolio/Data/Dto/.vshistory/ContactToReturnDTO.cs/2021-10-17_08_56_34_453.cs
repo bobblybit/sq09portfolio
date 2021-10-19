@@ -9,7 +9,7 @@ namespace portfolio.Data.Dto
     {
         public string Phone { get; set; }
         public string Email { get; set; }
-        public string SocialMedia { get; set; }
+        public string FaceBook { get; set; }
         public string LinkedIn { get; set; }
         public string Github { get; set; }
     }

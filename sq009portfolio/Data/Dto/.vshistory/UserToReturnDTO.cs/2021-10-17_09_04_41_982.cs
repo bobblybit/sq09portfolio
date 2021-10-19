@@ -12,7 +12,7 @@ namespace portfolio.Data.Dto
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string About { get; set; }
-        public ContactToReturnDTO Contact { get; set; }
+        public ContactToReturnDTO ContactInfo { get; set; }
         public ICollection<SkillToReturnDTO> Skills { get; set; }
         public ICollection<ProjectToReturnDTO> Projects { get; set; }
     }
